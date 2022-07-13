@@ -19,25 +19,25 @@ module.exports = {
             blockConfirmations: 1,
             saveDeployments: true,
         },
-        rinkeby: {
-            chainId: 4,
-            blockConfirmations: 6,
-            url: RINKEBY_RPC_URL,
-            accounts: [PRIVATE_KEY],
-        },
+//         rinkeby: {
+//             chainId: 4,
+//             blockConfirmations: 6,
+//             url: RINKEBY_RPC_URL,
+//             accounts: [PRIVATE_KEY],
+//         },
     },
-    etherscan: {
-        apiKey: {
-            rinkeby: ETHERSCAN_API_KEY,
-        },
-    },
-    gasReporter: {
-        enabled: true,
-        currency: "USD",
-        outputFile: "gas-report.txt",
-        noColors: true,
-        coinmarketcap: process.env.COINMARKETCAP_API_KEY,
-    },
+//     etherscan: {
+//         apiKey: {
+//             rinkeby: ETHERSCAN_API_KEY,
+//         },
+//     },
+//     gasReporter: {
+//         enabled: true,
+//         currency: "USD",
+//         outputFile: "gas-report.txt",
+//         noColors: true,
+//         coinmarketcap: process.env.COINMARKETCAP_API_KEY,
+//     },
     solidity: "0.8.7",
     namedAccounts: {
         deployer: {
