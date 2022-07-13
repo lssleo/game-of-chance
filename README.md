@@ -4,9 +4,9 @@ This is smart contract that deploys on blockchain. This is the game. Winner is s
 
 ### Requirements:
 
--   Yarn
--   Node.js
--   HardHat
+*  [Yarn](https://yarnpkg.com/getting-started/install)
+*   Node.js
+*   HardHat
 
 ### QuickStart:
 
