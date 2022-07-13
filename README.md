@@ -14,6 +14,9 @@ This is smart contract that deploys on blockchain. This is the game. Winner is s
 git clone https://github.com/lssleo/GameOfChance
 ```
 ```
+cd GameOfChance
+```
+```
 yarn init -y
 ```
 ```
