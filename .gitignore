@@ -1,0 +1,15 @@
+node_modules
+.env
+coverage
+coverage.json
+typechain
+.DS*
+yarn.lock
+
+#Hardhat files
+cache
+artifacts
+deployments
+gas-report.txt
+coverage.json
+.vscode
