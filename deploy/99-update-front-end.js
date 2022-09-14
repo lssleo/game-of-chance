@@ -3,9 +3,10 @@ const fs = require("fs")
 
 const FRONT_END_ADDRESSES_FILE = "../game-of-chance-nextjs/constants/contractAddresses.json"
 const FRONT_END_ABI_FILE = "../game-of-chance-nextjs/constants/abi.json"
+const UPDATE_FRONT_END = true
 
 module.exports = async () => {
-    if (process.env.UPDATE_FRONT_END) {
+    if (UPDATE_FRONT_END) {
         console.log("Writing to front end...")
         await updateContractAddresses()
         await updateAbi()
