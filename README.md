@@ -23,7 +23,7 @@ yarn init -y
 yarn add --dev hardhat
 ```
 
-### Useage:
+### Usage:
 
 Deploy at local network:
 
