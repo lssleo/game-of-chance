@@ -11,10 +11,10 @@ This is smart contract that deploys on blockchain. This is the game. Winner is s
 ### QuickStart:
 
 ```
-git clone https://github.com/lssleo/GameOfChance
+git clone https://github.com/lssleo/game-of-chance
 ```
 ```
-cd GameOfChance
+cd game-of-chance
 ```
 ```
 yarn init -y
