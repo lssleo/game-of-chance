@@ -25,10 +25,17 @@ module.exports = {
 //             url: RINKEBY_RPC_URL,
 //             accounts: [PRIVATE_KEY],
 //         },
+//         goerli: {
+//             chainId: 5,
+//             blockConfirmations: 6,
+//             url: GOERLI_RPC_URL,
+//             accounts: [GOERLI_PRIVATE_KEY],
+//         },
     },
 //     etherscan: {
 //         apiKey: {
 //             rinkeby: ETHERSCAN_API_KEY,
+//             goerli: ETHERSCAN_API_KEY,
 //         },
 //     },
 //     gasReporter: {
